@@ -1,0 +1,19 @@
+.container {
+background-color: darkslategrey;
+text-align: center;
+margin-left:100%;
+width: 400px;
+display: inline-block;
+border-radius: 10px;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.description {
+    font-size: 28px;
+    margin: 0;
+}

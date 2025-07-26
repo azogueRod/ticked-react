@@ -1,0 +1,44 @@
+.container {
+display: flex;
+flex-direction: column;
+}
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.eventImage {
+    width: 70%;
+    height: 60vh;
+    object-fit: cover;
+}
+.eventName {
+    margin: 12px 0;
+    font-size: 28px ;
+}
+.eventInfo {
+text-align: left;
+margin: 4px 0;
+}
+.eventDate {
+   margin: 4px 0; 
+}
+.seatInfoContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.seatMapTitle {
+    margin: 6px 0;
+    font-size: 16px;
+}
+.eventPleaseNote {
+    text-align: left;
+    margin: 10px 0;
+}
+.linkTickets {
+    display: inline-block;
+    width: 200px;
+    margin: 30px 50%;
+}
