@@ -28,7 +28,7 @@ const Navbar = forwardRef(({onSearch}, ref) => {
                 value={search}
                 onKeyDown={handleInputKeydown}
             />
-            <Link to="/profile" style={{
+            <Link to="/profile/my-info" style={{
                 marginLeft: 24,
                 color: '#fff',
                 textDecoration: "none"
